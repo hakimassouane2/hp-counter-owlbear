@@ -140,7 +140,7 @@
   style="font-family: 'Roboto', sans-serif;"
 >
   <button
-    class="rounded-sm active:bg-teal-700 rounded-lg"
+    class="active:bg-teal-700 rounded-lg"
     style="background-color: rgb(239 68 68);"
     on:click={() => subtractOne()}
   >
@@ -157,7 +157,7 @@
     on:keydown={(event) => ["Enter"].includes(event.key) && onInput(event)}
   />
   <button
-    class="bg-teal-500 rounded-sm active:bg-teal-700 rounded-lg"
+    class="bg-teal-500 active:bg-teal-700 rounded-lg"
     on:click={() => addOne()}
   >
     +
